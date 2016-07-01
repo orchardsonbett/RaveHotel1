@@ -1,6 +1,87 @@
- 
+/*
+==============================================
+Header
+==============================================
+*/
+.header {
+    color: gold;
+    background-color: dimgray;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Arbutus', cursive;
+    border: solid #777 20px;
+    border-radius: 20px;
+}
+img {
+    width: 90%;
+    height: 90%;
+    /*padding-right:5px;
+    padding-left: 5px;*/
+    border: solid #777 10px;
+    border-radius: 20px;
+    
+}
+h2 {
+  font-size: 40px;
+    font-family: 'Arbutus', cursive;
+    color: gold;
+    
+}
+p {
+    font-size: 30px;
+    font-family: 'Sirin Stencil', cursive;
+}
+h3 {
+    font-size: 40px;
+    color: gold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Arbutus', cursive;
+}
+/*
+==============================================
+Footer
+==============================================
+*/
+.footer {
+   color: gold;
+    background-color: dimgray;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Arbutus', cursive;
+    border: solid #777 20px;
+    border-radius: 20px; 
+}
+.nav-li a {
+     font-family: 'Sirin Stencil', cursive;
+     font-size: 30px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+.nav-li {
+    text-align: right;
+}
 
-.img {
+.img-1 {
+    background-image: url(../image/roomoffers.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     width: 100%;
     height: 100%;
+}
+
+.img-2 {
+    background-image: url(../image/weddingoffer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+
+.img-3 {
+    
 }

@@ -10,12 +10,12 @@
 <body>
     
   
-    <header>
+    <header class="header">
     <h1> 
         <a>Rave Hotel</a>
     </h1>
     
-   <nav>
+   <nav class="nav-li">
     
         <a href="index.html">Home</a>
     
@@ -26,7 +26,39 @@
         <a href="offers.html">Offers</a>
     </nav>
 </header>  
- <img src="image/reservationarea.jpg">   
+ <img src="image/reservationarea.jpg"> 
+    <section>
+    <form>
+			<fieldset>
+				<label>
+					Name
+					<input type="text" name="Full Name" placeholder="Full Name" required>
+				</label>
+				<label>
+					Email
+					<input type="text" name="Email" placeholder="Your Best Email" required>
+				</label>
+				<label>
+					Phone Number
+					<input type="text" name="phone number" placeholder="Your Best Phone Number" required>
+				</label>
+                <label>
+					Check-in
+					<input type="date" name="Date" placeholder="enter date" required>
+				</label>
+                <label>
+					check-out
+					<input type="date" name="Date" placeholder="enter date" required>
+				</label>
+				<label>
+					Comments
+					<textarea name="comments"></textarea>
+				</label>
+			</fieldset>
+
+			<input class="btn" type="submit" name="submit" value="submit">
+		</form>
+    </section>
     
     
     
@@ -34,7 +66,7 @@
     
     
     
- <footer>
+ <footer class="footer">
     <section>
     <small>&copy;Rave Hotel</small>
     <nav>
