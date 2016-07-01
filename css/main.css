@@ -85,3 +85,31 @@ Footer
 .img-3 {
     
 }
+
+.btn {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+/*Form*/
+fieldset,
+label,
+input {
+    display: block;
+    padding: 5px;
+}
+input {
+    padding-left: 90px;
+    padding-right: 90px;
+        
+}
+label {
+    font-size: 20px;
+}
+textarea {
+    padding: 15px;
+}
